@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {useRef} from 'react'
+import UseImage from './components/useimage/useimage';
 
 function App() {
 
@@ -8,15 +9,15 @@ function App() {
 
   return (
     <div>
-      <input type="file" 
+      {/* <input type="file" 
        ref ={inputRef}
        />
 
       <button onClick={() =>{
         console.log(inputRef.current.value)
       }}> picke the file 
-      </button>
-   
+      </button> */}
+      <UseImage/>
     </div>
   );
 }
